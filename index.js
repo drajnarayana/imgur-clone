@@ -17,13 +17,14 @@ clientSecret="eafd7c01ccab5ad51914556357688a269ed8f382"
 //     redirect: "follow",
 //   };
   
-// fetch("https://api.imgur.com/3/gallery/top", requestOptions)
+// fetch("https://api.imgur.com/3/gallery/t/pokemon", requestOptions)
 //   .then(response => response.json())
-//   .then(result => console.log(result.data))
+//   .then(result => console.log(result))
 //   .catch(error => console.log('error', error));
 
 
 // For more Tags displaying the block
+
 let tag=document.getElementsByClassName("moreTags")[0]
 let tag2=document.getElementById("lessTags2")
   tag.addEventListener("click",()=>{
@@ -66,4 +67,27 @@ function myFunction() {
     header.classList.remove("sticky");
     
   }
+}
+
+
+document.querySelector("#return-to-top").addEventListener("click", scrollTop);
+
+function scrollTop() {
+  console.log("Yes")
+  // document.body.scrollTop = 0;
+  // document.documentElement.scrollTop = 0;
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+}
+
+function debounce(){
+  let input=document.getElementById("input").value;
+  let name1=document.getElementsByClassName("name_1")
+  for(var i=0;i<name1.length;i++){
+    name1[i].textContent=`${input}`
+  }
+  
 }

@@ -4,9 +4,19 @@ body{
     background-color: #2e3035;
     padding: 0;
     margin:0;
+    overflow-x: hidden;
     }
 
      
+  
+    .backgroundDesign{
+        
+        width:100%;
+       margin: 0;
+        border:1px solid #171544;
+        background-image: url(https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png);
+       background-size: cover;
+    }
     #header{
         height:20px;
         width:100%;
@@ -22,14 +32,6 @@ body{
         top: 0;
         width: 100%;
       }
-    .backgroundDesign{
-        
-        width:100%;
-       margin: 0;
-        border:1px solid #171544;
-        background-image: url(https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png);
-       background-size: cover;
-    }
     .donut{
         font-size: 24px;
     font-family: Proxima Nova ExtraBold,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -43,8 +45,8 @@ body{
     }
    
     .logo{
-        height:40px;
-        width:240px;
+        height:35px;
+        width:17%;
         /* border:1px solid teal; */
         margin-left: 10px;
         margin-top: 10px;
@@ -75,17 +77,116 @@ body{
 } */
 .searchDiv{
     height: 37px;
-    width: 520px;
+    width: 39%;
     /* border:1px solid black; */
     margin-left:100px;
     margin-top: 10px;
     border-radius: 2px;
 
 }
+.searchBar{
+    height:550px;
+    width:39%;
+    /* border:1px solid red; */
+   
+    margin-top: 36px;
+    margin-left: 397px;
+    background-color: #2e3035;
+    border-radius:3px;
+}
+.searchBar p{
+    padding-left: 28px;
+    color: #b5b9c2;
+    font-size: 12px;
+    font-weight: 600;
+}
+.search-name{
+    height:140px;
+    width:95%;
+    /* border:1px solid  salmon; */
+    margin:auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.search-name div{
+    height:37px;
+    width:100%;
+    padding-left: 10px;
+    /* border:1px solid  yellow; */
+    
+   
+}
+.search-name div:hover{
+    background-color: #686b70;
+    border: 1px solid #4f4f4f;
+}
+.search-tags{
+    height:140px;
+    width:95%;
+    /* border:1px solid  salmon; */
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.search-tags div{
+    height:36px;
+    width:100%;
+    padding-left: 10px;
+    display: flex;
+    /* border:1px solid  yellow; */
+}
+.search-tags img{
+    height:85%;
+    width:7%;
+    padding: 4px;
+    border-radius:7px;
+}
+ 
+.search-tags div:hover{
+    background-color: #686b70;
+    border: 1px solid #4f4f4f;
+}
+
+.search-users{
+    height:140px;
+    width:95%;
+    /* border:1px solid  salmon; */
+    margin:auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.search-users div{
+    height:36px;
+    width:100%;
+    padding-left: 10px;
+    display: flex;
+    /* border:1px solid  yellow; */
+}
+.search-users img{
+    height:85%;
+    width:8%;
+    padding: 3px;
+    border-radius:100%;
+}
+.search-users div:hover{
+    background-color: #686b70;
+    border: 1px solid #4f4f4f;
+}
+
+
+
 form.example input[type=text] {
   padding: 8px;
   font-size: 15px;
-
+   color:white;
+   font-weight: 600;
   float: left;
   width: 85%;
   box-sizing: border-box;
@@ -95,7 +196,7 @@ form.example input[type=text] {
   border-radius: 2px;
  
 }
-form.example input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: rgb(207, 205, 205);
   font-size: 15px;
   font-weight: 600;
@@ -118,9 +219,9 @@ form.example button:hover {
 
 .profileBar{
     display: flex;
-    height:38px;
-    width:330px;
-    margin-right: 50px;
+    height:36px;
+    width:25%;
+    margin-right: 35px;
     /* border:1px solid green; */
   
     margin-top: 10px;
@@ -133,14 +234,14 @@ form.example button:hover {
     border: none;
     color: white;
     
-    height: 24px;
-     width:95px;
+    height: 65%;
+     width:30%;
      text-align: center;
     box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
     background-color: #6432F9;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 3px;
-    padding:  6px;
+    padding-top: 8px;
       
 }
 .addBtn:hover{
@@ -149,9 +250,9 @@ form.example button:hover {
 .signIn{
     color: white;
     font-weight: 550;
-    height:24px;
-    width:55px;
-    padding: 6px;
+    height:64%;
+    width:20%;
+    padding-top: 6px;
     /* border:1px solid teal; */
     text-align: center;
 }
@@ -159,9 +260,9 @@ form.example button:hover {
     cursor: pointer;
 }
 .signUp{
-    height: 24px;
+    height: 55%;
       background-color:#01b96b;
-       width:90px;
+       width:20%;
        text-align: center;
         font-weight: 700;
         color: white;
@@ -190,7 +291,7 @@ form.example button:hover {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border-radius: 3px;
+  
 }
 .space{
     height:100%;
@@ -198,13 +299,11 @@ form.example button:hover {
     /* border:1px solid brown; */
     display: flex;
     flex-direction: column;
-    border-radius: 2%;
+   
    
 
 }
-.space:hover{
-    transition: top ease 0.5s;
-}
+
 .spaceImg{
     height:50%;
  
@@ -212,6 +311,7 @@ form.example button:hover {
 .spaceImg img{
     height: 100%;
     width:100%;
+    border-radius: 3px 3px 0 0;
     
 }
 .spaceContent{
@@ -225,6 +325,7 @@ form.example button:hover {
      color:white;
     padding: 10px;
     background-color: rgb(38, 96, 110);
+    border-radius: 0 0 3px 3px;
 }
 .imgur13{
     height:100%;
@@ -232,7 +333,7 @@ form.example button:hover {
     /* border:1px solid brown; */
     display: flex;
     flex-direction: column;
-    border-radius: 3px;
+   
     
 }
 .imgur13Img{
@@ -241,6 +342,7 @@ form.example button:hover {
 .imgur13Img img{
    height:100%;
    width:100%;
+   border-radius:  3px 3px 0 0;
 }
 .imgur13Content{
     height:41%;
@@ -251,6 +353,7 @@ form.example button:hover {
      text-align: center;
      color:white;
     padding: 10px;
+    border-radius: 0 0 3px 3px;
     background-color: rgba(121,67,200,.8);
 }
 .vintage{
@@ -259,8 +362,7 @@ form.example button:hover {
     /* border:1px solid brown; */
     display: flex;
     flex-direction: column;
-    border-radius: 3px;
-   
+  
 }
 .vintageImg{
     height:59%;
@@ -268,6 +370,7 @@ form.example button:hover {
 .vintageImg img{
     height:100%;
     width:100%;
+    border-radius:  3px 3px 0 0;
 }
 .vintageContent{
     height:41%;
@@ -278,6 +381,7 @@ flex-direction: column;
  text-align: center;
  color:white;
 padding: 10px;
+border-radius:  0 0 3px 3px;
 background-color: #01b96b;
 }
 
@@ -287,7 +391,7 @@ background-color: #01b96b;
     /* border:1px solid brown; */
     display: flex;
     flex-direction: column;
-    border-radius: 3px;
+
   
 }
 .pokemonImg{
@@ -296,6 +400,7 @@ background-color: #01b96b;
 .pokemonImg img{
     height:100%;
     width:100%;
+    border-radius:  3px 3px 0 0 ;
 }
 .pokemonContent{
     height:41%;
@@ -306,6 +411,7 @@ flex-direction: column;
  text-align: center;
  color:white;
 padding: 10px;
+border-radius: 0  0 3px 3px;
 background-color: #C56579;
 }
 
@@ -315,7 +421,7 @@ background-color: #C56579;
     /* border:1px solid brown; */
     display: flex;
     flex-direction: column;
-    border-radius:3px;
+    
 }
 .blackHistoryImg{
     height:39%;
@@ -323,6 +429,7 @@ background-color: #C56579;
 .blackHistoryImg img{
     height:100%;
     width:100%;
+    border-radius: 3px 3px 0 0;
 }
 .blackHistoryContent{
     height:60%;
@@ -334,6 +441,7 @@ flex-direction: column;
  color:white;
 padding: 8px;
 background-color: #328D67;
+border-radius: 0 0 3px 3px;
 }
 
 .science{
@@ -342,7 +450,7 @@ background-color: #328D67;
     /* border:1px solid brown; */
     display: flex;
     flex-direction: column;
-    border-radius: 3px;
+   
 }
 .scienceImg{
     height:45%;
@@ -350,6 +458,7 @@ background-color: #328D67;
 .scienceImg img{
     height:100%;
     width:100%;
+    border-radius: 3px 3px 0 0;
 }
 .scienceContent{
     height:55%;
@@ -361,6 +470,7 @@ flex-direction: column;
  color:white;
 padding: 8px;
 background-color: #E47D57;
+border-radius: 0 0 3px 3px;
 }
 
 .staff{
@@ -369,7 +479,7 @@ background-color: #E47D57;
     /* border:1px solid brown; */
     display: flex;
     flex-direction: column;
-    border-radius:3px;
+    
 }
 .staffImg{
     height:59%;
@@ -377,6 +487,7 @@ background-color: #E47D57;
 .staffImg img{
     height:100%;
     width:100%;
+    border-radius: 3px 3px 0 0;
 }
 .staffContent{
     height:55%;
@@ -388,6 +499,7 @@ flex-direction: column;
  color:white;
 padding: 10px;
 background-color: #132D31;
+border-radius: 0 0 3px 3px;
 }
 .games{
     height:100%;
@@ -395,7 +507,7 @@ background-color: #132D31;
     /* border:1px solid brown; */
     display: flex;
     flex-direction: column;
-    border-radius: 3px;
+  
 }
 .gamesImg{
     height:59%;
@@ -403,6 +515,7 @@ background-color: #132D31;
 .gamesImg img{
     height:100%;
     width:100%;
+    border-radius: 3px 3px 0 0;
 }
 .gamesContent{
     height:55%;
@@ -414,6 +527,7 @@ flex-direction: column;
  color:white;
 padding: 10px;
 background-color: #2B1A5A;
+border-radius:  0 0 3px 3px;
 }
 
 .memes{
@@ -422,7 +536,7 @@ background-color: #2B1A5A;
     /* border:1px solid brown; */
     display: flex;
     flex-direction: column;
-    border-radius:4px;
+    
 }
 .memesImg{
     height:59%;
@@ -430,6 +544,7 @@ background-color: #2B1A5A;
 .memesImg img{
     height:100%;
     width:100%;
+    border-radius: 3px 3px 0 0;
 }
 .memesContent{
     height:55%;
@@ -441,6 +556,7 @@ flex-direction: column;
  color:white;
 padding: 10px;
 background-color: #BA519F;
+border-radius: 0 0 3px 3px;
 }
 .tagTitle{
     color: #fff;
@@ -472,7 +588,7 @@ background-color: #BA519F;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border-radius: 3px;
+ 
   
 }
 #lessTags2{
@@ -490,7 +606,7 @@ background-color: #BA519F;
     /* border:1px solid yellow; */
     display: flex;
     flex-direction: column;
-    border-radius: 3px;
+   
 }
 .ocImg{
    height:50%;
@@ -498,6 +614,7 @@ background-color: #BA519F;
 .ocImg img{
      height:100%;
      width:100%;
+     border-radius:3px 3px 0 0;
 }
 .ocContent{
     height:50%;
@@ -507,6 +624,7 @@ flex-direction: column;
  color:white;
 padding: 10px;
 background-color: #AB80B8; 
+border-radius:  0 0 3px 3px ;
 }
 .funnyContent{
     height:50%;
@@ -516,6 +634,7 @@ flex-direction: column;
  color:white;
 padding: 10px;
 background-color: #633875; 
+border-radius:  0 0 3px 3px ;
 }
 .awesomeContent{
     height:50%;
@@ -523,7 +642,7 @@ background-color: #633875;
 flex-direction: column;
  text-align: center;
  color:white;
-
+ border-radius:  0 0 3px 3px ;
 background-color: #8472BD; 
 }
 .awwContent{
@@ -533,6 +652,7 @@ flex-direction: column;
  text-align: center;
  color:white;
 padding: 10px;
+border-radius:  0 0 3px 3px ;
 background-color: #60AEBB; 
 }
 .artcrawlContent{
@@ -542,6 +662,7 @@ flex-direction: column;
  text-align: center;
  color:white;
 padding: 14px;
+border-radius:  0 0 3px 3px ;
 background-color: #FF51BA;
 }
 .coffeeContent{
@@ -551,6 +672,7 @@ flex-direction: column;
  text-align: center;
  color:white;
 padding: 10px;
+border-radius:  0 0 3px 3px ;
 background-color: #383C64;
 }
 .unmutedContent{
@@ -560,6 +682,7 @@ flex-direction: column;
  text-align: center;
  color:white;
 padding: 10px;
+border-radius:  0 0 3px 3px ;
 background-color: #263BA7;
 }
 
@@ -570,6 +693,7 @@ flex-direction: column;
  text-align: center;
  color:white;
 padding: 10px;
+border-radius:  0 0 3px 3px ;
 background-color: #008261;
 }
 .MoviesContent{
@@ -579,6 +703,7 @@ flex-direction: column;
  color:white;
 padding: 9px;
 background-color: #2084B0;
+border-radius:  0 0 3px 3px ;
 }
 .currentEventsContent{
     height:49%;
@@ -588,5 +713,6 @@ flex-direction: column;
  color:white;
  padding: 8px;
 background-color: #699AAF;
+border-radius:  0 0 3px 3px ;
 }
 
