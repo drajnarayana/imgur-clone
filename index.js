@@ -1,14 +1,14 @@
+//API  credentials
+
 clientId="fada7c960778152";
 
 clientSecret="eafd7c01ccab5ad51914556357688a269ed8f382"
 
-// var myHeaders = new Headers();
-// myHeaders.append("Authorization", "Client-ID {{clientId}}");
-
-// var formdata = new FormData();
 
 
 //API request
+
+
 // var requestOptions = {
 //     method: "GET",
 //     headers: {
@@ -22,6 +22,8 @@ clientSecret="eafd7c01ccab5ad51914556357688a269ed8f382"
 //   .then(result => console.log(result.data))
 //   .catch(error => console.log('error', error));
 
+
+// For more Tags displaying the block
 let tag=document.getElementsByClassName("moreTags")[0]
 let tag2=document.getElementById("lessTags2")
   tag.addEventListener("click",()=>{
@@ -46,3 +48,22 @@ let tag2=document.getElementById("lessTags2")
    console.log(tag2)
    tag2.classList.toggle("tagContainer2")
   })
+
+  
+//header sticky functionality
+
+var header = document.getElementById("header");
+var sticky = header.offsetTop;
+
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+
+  if (window.pageYOffset >= sticky) {
+    
+    header.classList.add("sticky")
+  } else {
+    header.classList.remove("sticky");
+    
+  }
+}
