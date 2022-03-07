@@ -82,24 +82,34 @@ body{
     margin-left:100px;
     margin-top: 10px;
     border-radius: 2px;
+    position: relative;
 
 }
 .searchBar{
-    height:550px;
-    width:39%;
+    height:350px;
+    width:100%;
     /* border:1px solid red; */
    
-    margin-top: 36px;
-    margin-left: 397px;
+    margin-top: 10px;
+  
     background-color: #2e3035;
     border-radius:3px;
+    position: absolute;
+  
+}
+.searchBarhide{
+    display: none;
 }
 .searchBar p{
     padding-left: 28px;
     color: #b5b9c2;
     font-size: 12px;
     font-weight: 600;
+    /* border:1px solid red; */
 }
+
+
+
 .search-name{
     height:140px;
     width:95%;
@@ -120,7 +130,7 @@ body{
 }
 .search-name div:hover{
     background-color: #686b70;
-    border: 1px solid #4f4f4f;
+    /* border: 1px solid #4f4f4f; */
 }
 .search-tags{
     height:140px;
@@ -149,9 +159,19 @@ body{
  
 .search-tags div:hover{
     background-color: #686b70;
-    border: 1px solid #4f4f4f;
+    /* border: 1px solid #4f4f4f; */
 }
 
+.name_2{
+  
+    color: white;
+    font-size: 15px;
+    
+}
+.name_2:hover{
+    cursor:pointer;
+    border: none;
+}
 .search-users{
     height:140px;
     width:95%;
@@ -194,6 +214,7 @@ form.example input[type=text] {
   margin:auto;
   border: 1px solid transparent;
   border-radius: 2px;
+  outline: none;
  
 }
  input::-webkit-input-placeholder { /* Chrome/Opera/Safari */

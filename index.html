@@ -41,9 +41,35 @@
             </div>
             <div class="searchDiv">
                 <form class="example"  >
-                    <input id="input" type="text" oninput="debounce()" placeholder="Images, #tags, @users oh my! " name="search2">
+                    <input id="input" type="text" oninput="debounce()" placeholder="Images, #tags, @users oh my! " name="search2" autocomplete="off">
                     <button type="submit"><img src="https://s.imgur.com/desktop-assets/desktop-assets/icon-search.8d0f9b564a4659d48d8eca38b968a7f2.svg"/></button>
                   </form>
+                  <div class="searchBarhide" id="showSearchBar">
+                    <div class="search-name">
+                        <div>
+                            <p class="name_1"></p>
+                        </div>
+                        <div> <p class="name_1"></p></div>
+                        <div> <p class="name_1"></p></div>
+                    </div>
+                    <p>TAGS</p>
+                    <div class="search-tags">
+                        <div>
+                          
+                       <img src="https://i.imgur.com/gbuk2AN_d.jpg?maxwidth=60&shape=thumb&fidelity=high"/>
+                           <div class="name_2"></div>
+                        </div>
+                        <div >
+                            <img src="https://i.imgur.com/Ikykl3U_d.jpg?maxwidth=60&shape=thumb&fidelity=high"/>
+                            <div class="name_2"></div>
+                        </div>
+                        <div >
+                            <img src="https://i.imgur.com/IM5mPHe_d.jpg?maxwidth=60&shape=thumb&fidelity=high"/>
+                            <div class="name_2"></div>
+                        </div>
+                    </div>
+                  
+                </div>
             </div>
              
             <div class="profileBar">
@@ -57,49 +83,10 @@
              <div class="signIn">Sign in </div>
              <div class="signUp">Sign up</div>
             </div>
-        
+          
         </div>
     
-        <div class="searchBar">
-            <div class="search-name">
-                <div>
-                    <p class="name_1"></p>
-                </div>
-                <div> <p class="name_1"></p></div>
-                <div> <p class="name_1"></p></div>
-            </div>
-            <p>TAGS</p>
-            <div class="search-tags">
-                <div>
-                  
-               <img src="https://i.imgur.com/gbuk2AN_d.jpg?maxwidth=60&shape=thumb&fidelity=high"/>
-                   <p class="name_1"></p>
-                </div>
-                <div >
-                    <img src="https://i.imgur.com/Ikykl3U_d.jpg?maxwidth=60&shape=thumb&fidelity=high"/>
-                    <p class="name_1"></p>
-                </div>
-                <div >
-                    <img src="https://i.imgur.com/IM5mPHe_d.jpg?maxwidth=60&shape=thumb&fidelity=high"/>
-                    <p class="name_1"></p>
-                </div>
-            </div>
-            <p>USERS</p>
-            <div class="search-users">
-                <div class="tag-1">
-                    <img src="https://i.imgur.com/4jZSazf_d.png?maxwidth=290&fidelity=grand"/>
-                    <p class="name_1"></p>
-                </div>
-                <div class="tag-1">
-                    <img src="https://i.imgur.com/I9KZ1p9_d.png?maxwidth=290&fidelity=grand"/>
-                    <p class="name_1"></p>
-                </div>
-                <div class="tag-1">
-                    <img src="https://i.imgur.com/vaTS6Ve_d.png?maxwidth=290&fidelity=grand"/>
-                    <p class="name_1"></p>
-                </div>
-            </div>
-        </div>
+
         <div class="donut">The center of a donut is 100% fat free.</div>
         
         <div class="tagDiv">
@@ -289,9 +276,9 @@
         
     </div>
      
-
-
-    <!-- <div id="scroll">
+      
+   
+   <!-- <div id="scroll">
         <button id="return-to-top">
           <i class="icon-chevron-up"></i>
           <p>BACK TO TOP</p>
