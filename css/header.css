@@ -6,7 +6,7 @@
   background-size: cover;
 }
 #header {
-  height: 20px;
+  height: 60px;
   width: 100%;
   /* border:1px solid coral; */
 
@@ -14,6 +14,8 @@
   justify-content: space-between;
   margin: 0;
   z-index: 1;
+  background-image: url(https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png);
+  background-size: cover;
 }
 .sticky {
   position: fixed;
