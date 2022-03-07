@@ -195,7 +195,8 @@ form.example input[type="text"] {
   background: hsla(0, 0%, 100%, 0.25);
   margin: auto;
   border: 1px solid transparent;
-  border-radius: 2px;
+  border-right:none ;
+  border-radius: 2px 0 0 2px;
   outline: none;
 }
 input::-webkit-input-placeholder {
@@ -214,6 +215,7 @@ form.example button {
   background: hsla(0, 0%, 100%, 0.25);
   color: white;
   border: none;
+  border-left:none;
 }
 
 form.example button:hover {
